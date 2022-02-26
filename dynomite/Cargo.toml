@@ -19,7 +19,7 @@ maintenance = { status = "actively-developed" }
 [dependencies]
 async-trait = "0.1"
 again = "0.1"
-aws-sdk-dynamodb = "0.6"
+aws-sdk-dynamodb = "0.8"
 bytes = "1"
 dynomite-derive = { version = "0.10.0", path = "../dynomite-derive", optional = true }
 futures = "0.3"
@@ -31,7 +31,7 @@ uuid = { version = "0.8", features = ["v4"], optional = true }
 chrono = { version = "0.4", optional = true }
 
 [dev-dependencies]
-aws-config = "0.6"
+aws-config = "0.8"
 env_logger = "0.9"
 maplit = "1.0"
 serde = "1.0"
