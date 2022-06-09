@@ -351,7 +351,7 @@ use chrono::{
 
 // we re-export this because we
 // refer to it with in derive macros
-use aws_sdk_dynamodb::Blob;
+pub use aws_sdk_dynamodb::types::Blob;
 #[doc(hidden)]
 pub use dynamodb::model::AttributeValue;
 use std::{
